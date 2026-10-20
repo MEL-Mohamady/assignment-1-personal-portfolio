@@ -1,0 +1,253 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f6fa;
+    font-family: Arial, sans-serif;
+    color: #14243d;
+    font-size: 14px;
+   
+}
+
+.container {
+    width: 50%;
+    margin: 30px auto;
+}
+
+/* Head Section */
+
+.name-sec {
+    background-color: #1c4b7e;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 12px 30px #00000012;
+}
+
+.name-sec h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.name-sec p {
+    color: #c5d9f0;
+    font-size: 17px;
+    margin: 10px 0 30px;
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #ffffff12;
+    border: 1px solid #ffffff25;
+    padding: 8px 18px;
+    border-radius: 30px;
+    margin: 0 4px;
+    font-size: 13px;
+}
+
+/* Sections */
+
+.section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 30px #00000008;
+}
+
+.section h2,
+.contact h2 {
+    font-size: 24px;
+    color: #123d70;
+    margin: 0 0 25px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d5e6f7;
+}
+
+.section > p {
+    margin-bottom: 25px;
+}
+
+/* About Section */
+
+.person-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid #e1f1fc;
+    object-fit: cover;
+    float: left;
+    margin-right: 30px;
+    box-shadow: 0 5px 15px #00000018;
+}
+
+.about-text {
+    padding-top: 10px;
+}
+
+.about-text p {
+    margin: 0 0 20px;
+}
+
+.about-text .intro {
+    font-size: 16px;
+    color: #405875;
+}
+
+.about-text span {
+    color: #0068b7;
+    font-weight: bold;
+}
+
+.github-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0865a9;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 7px;
+}
+
+/* Skills Section */
+
+.skills-container {
+    width: 100%;
+}
+
+.skill-box {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    padding: 22px;
+    min-height: 165px;
+    border: 1px solid #dceafb;
+    background-color: #f8fbff;
+    border-radius: 14px;
+    box-shadow: 0 8px 15px #00000008;
+}
+
+.skill-box:nth-child(4) {
+    margin-right: 0;
+}
+
+.skill-box h3 {
+    color: #0067b5;
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+.skill-box p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+/* Experience Section */
+
+.experience-box {
+    background-color: #f8fafc;
+    padding: 25px;
+    border: 1px solid #e0e9f2;
+    border-left: 4px solid #0068b7;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.FrontEnd {
+    float: left;
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    background-color: white;
+    border: 1px solid #d7e7f8;
+    border-radius: 12px;
+    padding: 8px;
+    margin-right: 25px;
+}
+
+.experience-info {
+    float: left;
+}
+
+.experience-info h3 {
+    margin: 0 0 14px;
+    font-size: 16px;
+}
+
+.experience-info h4 {
+    margin: 0 0 12px;
+    color: #0068b7;
+    font-size: 14px;
+}
+
+.experience-info p {
+    margin: 0;
+}
+
+.experience-desc {
+    margin: 15px 0 5px;
+    font-size: 13px;
+}
+
+/* Contact Section */
+
+.contact {
+    background-color: #1c4b7e;
+    padding: 30px;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact h2 {
+    color: white;
+    border-bottom-color: #ffffff30;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #ffffff14;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffffff20;
+    border-radius: 7px;
+    margin-right: 8px;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #081b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer span {
+    color: #63bdff;
+    font-weight: bold;
+}
+
+/* Clear Float */
+
+.clear {
+    clear: both;
+}
